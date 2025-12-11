@@ -1,0 +1,23 @@
+{
+  "name": "vanity-checker",
+  "version": "1.0.0",
+  "description": "A simple Discord vanity URL checker that finds available vanity URLs for Discord servers",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "discord",
+    "vanity",
+    "checker",
+    "url",
+    "availability"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.8.4",
+    "dotenv": "^16.4.7",
+    "https-proxy-agent": "^7.0.6"
+  }
+}
